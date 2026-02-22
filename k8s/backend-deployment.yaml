@@ -26,8 +26,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ecommerce-app-backend:latest
-          imagePullPolicy: Never   # Use local Docker image
+          image:ashrafdesai/ecommerce-backend:latest
+          imagePullPolicy: Always   # Use local Docker image
           ports:
             - containerPort: 5000
           env:
