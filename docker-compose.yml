@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
 
   mongodb:
@@ -18,7 +16,7 @@ services:
     container_name: backend
     restart: always
     ports:
-      - "5001:5000"       # ✅ Changed 5000 to 5001
+      - "5001:5000"
     environment:
       - PORT=5000
       - MONGO_URI=mongodb://mongodb:27017/ecommerce
@@ -33,14 +31,43 @@ services:
     container_name: frontend
     restart: always
     ports:
-      - "8080:80"         # ✅ Changed 80 to 8080
+      - "8080:80"
     depends_on:
       - backend
     networks:
       - ecommerce-network
 
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    restart: always
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - ecommerce-network
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/datasources.yml:/etc/grafana/provisioning/datasources/datasources.yml
+    depends_on:
+      - prometheus
+    networks:
+      - ecommerce-network
+
 volumes:
   mongo_data:
+  grafana_data:
 
 networks:
   ecommerce-network:
