@@ -1,3 +1,7 @@
+
+Make sure the file contains **ONLY THIS**:
+
+```toml
 [phases.setup]
 nixPkgs = ["nodejs-18_x"]
 
@@ -9,12 +13,3 @@ cmds = ["echo 'No build step needed'"]
 
 [start]
 cmd = "node server.js"
-```
-
----
-
-## Also Add `backend/Procfile`
-
-Create `backend/Procfile` (no extension):
-```
-web: node server.js
