@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img width="1536" height="1024" alt="ChatGPT Image Feb 23, 2026, 04_01_09 PM" src="https://github.com/user-attachments/assets/77956b34-e8d5-4190-866a-385728e0d28e" />
+<img width="500" height="500" alt="ChatGPT Image Feb 23, 2026, 04_01_09 PM" src="https://github.com/user-attachments/assets/77956b34-e8d5-4190-866a-385728e0d28e" />
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://ecommerce-app.vercel.app)
 [![Backend](https://img.shields.io/badge/Backend-Railway-purple?style=for-the-badge&logo=railway)](https://e-commerce-app-production-9339.up.railway.app)
@@ -515,6 +515,7 @@ User → Vercel (Frontend) → Railway (Backend) → MongoDB Atlas
 **Built with ❤️ — Full Stack + DevOps**
 
 </div>
+
 
 
 
