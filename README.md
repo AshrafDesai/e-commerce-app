@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Banner](https://via.placeholder.com/900x300/1a1a2e/e94560?text=E-Commerce+App+%7C+MERN+%2B+Docker+%2B+Kubernetes+%2B+CI%2FCD)
+![Uploading ChatGPT Image Feb 23, 2026, 04_01_09 PM.png…]()
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://ecommerce-app.vercel.app)
 [![Backend](https://img.shields.io/badge/Backend-Railway-purple?style=for-the-badge&logo=railway)](https://e-commerce-app-production-9339.up.railway.app)
@@ -515,5 +515,6 @@ User → Vercel (Frontend) → Railway (Backend) → MongoDB Atlas
 **Built with ❤️ — Full Stack + DevOps**
 
 </div>
+
 
 
