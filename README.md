@@ -480,20 +480,19 @@ User → Vercel (Frontend) → Railway (Backend) → MongoDB Atlas
 > Replace these with actual screenshots from your app
 
 ### Homepage
-![Homepage]<img width="1890" height="752" alt="image" src="https://github.com/user-attachments/assets/c2e15169-d5a6-4029-8aa6-9a7486102bc9" />
+<img width="1890" height="752" alt="image" src="https://github.com/user-attachments/assets/c2e15169-d5a6-4029-8aa6-9a7486102bc9" />
 
 ### Admin Panel
-![Admin]<img width="1381" height="727" alt="image" src="https://github.com/user-attachments/assets/e7ada0c9-6a11-43ee-b53f-b4c73c7f05a1" />
+<img width="1381" height="727" alt="image" src="https://github.com/user-attachments/assets/e7ada0c9-6a11-43ee-b53f-b4c73c7f05a1" />
 
 
 ### CI/CD Pipeline
-![CI/CD](https://via.placeholder.com/800x450/2088FF/ffffff?text=GitHub+Actions+✅)
+<img width="1416" height="368" alt="image" src="https://github.com/user-attachments/assets/9fb2b91f-4b75-4259-a782-0a46195f18ec" />
 
-### Kubernetes Pods
-![K8s](https://via.placeholder.com/800x450/326CE5/ffffff?text=Kubernetes+Pods+Running)
 
 ### Grafana Dashboard
-![Grafana](https://via.placeholder.com/800x450/F46800/ffffff?text=Grafana+Monitoring)
+<img width="1550" height="787" alt="image" src="https://github.com/user-attachments/assets/b2a996a2-ef6a-4c25-8b94-ee23936a3584" />
+
 
 ---
 
@@ -516,4 +515,5 @@ User → Vercel (Frontend) → Railway (Backend) → MongoDB Atlas
 **Built with ❤️ — Full Stack + DevOps**
 
 </div>
+
 
