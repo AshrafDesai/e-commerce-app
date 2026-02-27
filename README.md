@@ -480,10 +480,11 @@ User → Vercel (Frontend) → Railway (Backend) → MongoDB Atlas
 > Replace these with actual screenshots from your app
 
 ### Homepage
-![Homepage](https://via.placeholder.com/800x450/1a1a2e/ffffff?text=Homepage+Product+Listing)
+![Homepage]<img width="1890" height="752" alt="image" src="https://github.com/user-attachments/assets/c2e15169-d5a6-4029-8aa6-9a7486102bc9" />
 
 ### Admin Panel
-![Admin](https://via.placeholder.com/800x450/e94560/ffffff?text=Admin+Panel)
+![Admin]<img width="1381" height="727" alt="image" src="https://github.com/user-attachments/assets/e7ada0c9-6a11-43ee-b53f-b4c73c7f05a1" />
+
 
 ### CI/CD Pipeline
 ![CI/CD](https://via.placeholder.com/800x450/2088FF/ffffff?text=GitHub+Actions+✅)
@@ -515,3 +516,4 @@ User → Vercel (Frontend) → Railway (Backend) → MongoDB Atlas
 **Built with ❤️ — Full Stack + DevOps**
 
 </div>
+
